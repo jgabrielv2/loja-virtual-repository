@@ -14,7 +14,7 @@ public class ConnectionFactory {
 		ComboPooledDataSource cpds = new ComboPooledDataSource();
 		cpds.setJdbcUrl("jdbc:mysql://localhost/loja_virtual?useTimezone=true&serverTimezone=UTC");
 		cpds.setUser("root");
-		cpds.setPassword("R@foca06");
+		cpds.setPassword("root");
 		cpds.setMaxPoolSize(4);
 		this.dataSource = cpds;
 	}
